@@ -11,6 +11,6 @@ public class DefaultController {
     @RequestMapping("*")
     @ResponseBody
     public String home() {
-        return "Hei Maailma! Tästä tulee minun sovellus";
+        return "Hei Maailma! Tästä tulee minun ensimmäinen sovellus";
     }
 }
